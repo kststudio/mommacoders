@@ -5,16 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Momma Coders: ask momma" content="">
-    <meta name="WECode Hackathon Group" content="">
+    <meta name="Momma" content="">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>JOIN MOMMA</title>
+    <title>ASKED MOMMA</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/jumbotron.css" rel="stylesheet">
+
+    <!-- PARSE FILES
+    <script src="http://www.parsecdn.com/js/parse-1.2.13.min.js"></script>
+    <script src="js/parse.js"></script>
+    -->
+
     <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
     <script src="js/script.js"></script>
 
@@ -28,7 +34,7 @@
     <![endif]-->
   </head>
 
- <body>
+  <body>
 
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
@@ -39,7 +45,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="index.html"><img src="img/mommHeart_icon.png" alt="momma coders logo"></a>
+          <a href="index.html"><img src="img/mommHeart_icon.png"></a>
         </div>
         <div class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" role="form">
@@ -55,37 +61,43 @@
       </div>
     </div>
 
+      
+
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Come to Momma</h1>
-            <!-- Sign up Form -->
-            <h3>First Name:<h3><input type="text" class="form-input"><br><br>
-            <h3>Last Name:<h3><input type="text" class="form-input"><br><br>
-            <h3>Username:<h3><input type="text" class="form-input"><br><br>
-            <h3>Password:<h3><input type="password" class="form-input"><br><br>
-            <h3>Re-type Password:<h3><input type="password" class="form-input"><br><br>
-            <h3>Experience Level:</h3>
-            <input type="radio" name="experienceLevel" value="babyMomma"> Baby Momma (low to no experience)<br>
-            <input type="radio" name="experienceLevel" value="lilMomma"> Lil' Momma (moderate experience)<br>
-            <input type="radio" name="experienceLevel" value="bigMomma"> Big Momma (expert experience)<br>
-
-            <a href="index.html" class="btn btn-success">Sign Up</a>
-        </form>    
-      </div>
     </div>
+
+    <div class="container">
+        <div class="questionBox">
+          <button class="btn btn-success loveButton">LOVE</button>
+          <h2>? Momma Mia asks: </h2><h3>Firefox not reading background of nested element.</h3>
+          <p>I encountered a strange issue with Firefox, I'm creating a menu with maximum three levels, and everything is working fine in chrome, but in Firefox after I click on 'First Level Menu', there opens a funny little thing called love. Please Help!</p>
+        </div> <!-- end questionBox -->
+
+        <div class="replyBox">
+          <h3>Hilary says: </h3><p>You can taget the Firefox specifically using 
+            <code>@-moz-document url-prefix(){<condition>}</code>
+          </p>
+        </div> <!--enreply -->
+        <div class="replyBox">
+          <h3>Momma Cass says: </h3><p>You can taget the Firefox specifically using 
+            <code>@-moz-document url-prefix(){<condition>}</code>
+          </p>
+        </div> <!--enreply -->
+        <div class="replyBox">
+          <h3>Madonna says: </h3><p>You can taget the Firefox specifically using 
+            <code>@-moz-document url-prefix(){<condition>}</code>
+          </p>
+        </div> <!--enreply -->
+    </div> <!-- /container -->
 
       <footer>
         <p>&copy; MOMMA<3CODERS 2013</p>
       </footer>
-    </div> <!-- /container -->
+    
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="../../dist/js/bootstrap.min.js"></script>
   </body>
 </html>
-

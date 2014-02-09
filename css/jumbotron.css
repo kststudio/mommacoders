@@ -22,3 +22,33 @@ body {
   -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
           transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
+
+.questionBox, .replyBox{
+  width: 70%;
+  padding: 6px;
+}
+
+.questionBox{
+  background-color: #CCCCCC;
+}
+
+.loveButton{
+  float: right;
+  background-color: #FFFFFF;
+  color:#B61C52;
+  border-color:#B61C52;
+}
+
+.loveButton:hover, .loved{
+  background:#B61C52;
+  border-color:#B61C52;
+  color: #FFFFFF;
+}
+
+
+
+.replyBox{
+  background-color: #D1ACA4;
+  float: right;
+  margin-top: 5px;
+}
