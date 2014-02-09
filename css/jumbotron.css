@@ -3,3 +3,11 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
+.questionBox{
+	background-color: #D1ACA4;
+	margin: 10px 0;
+}
+.answerBox{
+	background-color: #fff;
+}
