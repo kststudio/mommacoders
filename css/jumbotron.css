@@ -28,7 +28,18 @@ body {
   padding: 6px;
 }
 
+
 .questionBox{
+  background-color: #CCCCCC;
+}
+
+.postBox, .poopBox{
+  float: left;
+  width: 70%;
+  padding: 6px;
+}
+
+.postBox{
   background-color: #CCCCCC;
 }
 
