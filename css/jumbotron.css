@@ -2,7 +2,13 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
-}
+  background-color: #FFFFFF;}
+
+h1 { color:#B61C52;
+    text-align: center;}
+
+ h2 { color:#887A6D;}
+
 .form-input{
   display: block;
   width: 40%;
@@ -49,4 +55,31 @@ body {
   background-color: #D1ACA4;
   float: right;
   margin-top: 5px;
+}
+
+.btn-success, .btn-primary {
+color: #D1ACA4;
+background-color: #B61C52;
+border-color: #B61C52;
+}
+
+a{
+  color:#B61C52;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#D1ACA4;
+  text-decoration: none;
+}
+
+.col-md-12 {
+  width: 70%;
+  float: clear !important;
+}
+
+.btn-success:hover{
+  background-color:#B61C52;;
+  border-color: #B61C52;
+  color: #FFFFFF;
 }
