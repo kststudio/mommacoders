@@ -3,4 +3,3 @@
 
 <p>Momma Coders a community for all levels of female developers to work together and create an open atmosphere where everyone is helpful and kind.</p>
 
-<p>testing</p>
