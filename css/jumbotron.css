@@ -66,3 +66,12 @@ body {
   background-color: #B61C52;
   border-color: #920738;
 }
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success, .btn-success:hover {
+color: #920738;
+ background-color: #D1ACA4;
+  border-color: #920738;
